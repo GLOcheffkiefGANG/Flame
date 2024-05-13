@@ -21,7 +21,6 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
   const searchModal = useUnit($searchModal)
   const showQuickViewModal = useUnit($showQuickViewModal)
   const showSizeTable = useUnit($showSizeTable)
-  const authWrapperRef = useRef() as MutableRefObject<HTMLDivElement>
 
   return (
     <>
