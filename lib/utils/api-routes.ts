@@ -1,5 +1,5 @@
 import { Db, MongoClient } from 'mongodb'
-import { shuffle } from './common'
+import { shuffle } from '@/lib/utils/common' // Изменил импорт
 
 export const getDbAndReqBody = async (
   clientPromise: Promise<MongoClient>,
