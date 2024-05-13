@@ -1,6 +1,5 @@
 'use client'
 import { useUnit } from 'effector-react'
-import { MutableRefObject, useRef } from 'react'
 import { useMediaQuery } from '@/hooks/useMediaQuery'
 import Header from '../modules/Header/Header'
 import MobileNavBar from '../modules/MobileNavBar/MobileNavBar'
