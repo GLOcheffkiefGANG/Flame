@@ -11,7 +11,6 @@ import './globalStyles/cart-popup.css'
 import './globalStyles/footer.css'
 import './globalStyles/slick-theme.css'
 import './globalStyles/slick.css'
-import './globalStyles/auth-popup.css'
 
 export const metadata: Metadata = {
   title: 'Create Next App',
