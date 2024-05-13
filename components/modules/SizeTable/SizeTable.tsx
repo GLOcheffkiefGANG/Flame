@@ -18,7 +18,7 @@ const SizeTable = () => {
   const [lSize, setLSize] = useState(false)
   const [xlSize, setXLSize] = useState(false)
   const [xxlSize, setXXLSize] = useState(false)
-  const { selectedSize, setSelectedSize, product } = useCartAction()
+  const { selectedSize, setSelectedSize  } = useCartAction()
   const productSizes = useUnit($sizeTableSizes)
   const isHeaddressType = productSizes.type === 'headdress'
 
