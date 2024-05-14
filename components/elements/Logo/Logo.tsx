@@ -6,6 +6,8 @@ const Logo = () => (
       className='logo__img'
       src='/img/FlameLogoBaker.png'
       alt='Rostelecom Logo'
+      width="156"
+      height="76"
     />
   </Link>
 )

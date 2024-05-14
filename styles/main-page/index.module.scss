@@ -66,7 +66,7 @@
     }
 
     @media (max-width: 380px) {
-      top: 95px;
+      top: 140px;
     }
 
     &__slide {
@@ -124,7 +124,7 @@
         }
 
         @media (max-width: 760px) {
-          top: -95px;
+          top: -80px;
           left: 0px;
           right: -120px;
         }
@@ -176,7 +176,7 @@
         &__title {
           min-width: 142px;
           margin-bottom: 6px;
-          color: #E8E9EA;
+          color: #e0e3e6;
           font-weight: 700;
           line-height: 20px;
 
@@ -223,7 +223,7 @@
       }
 
       @media (max-width: 490px) {
-        top: -3px;
+        top: -8px;
         left: 64px;
       }
     }

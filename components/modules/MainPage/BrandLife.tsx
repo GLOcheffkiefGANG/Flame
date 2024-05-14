@@ -59,14 +59,14 @@ const BrandLife = () => {
                 className={`${styles.brands__list__item__link} ${styles.categories__img} ${imgSpinnerClass}`}
               >
                 <Image
-                  src={img2}
-                  alt={translations[lang].main_page.brand_look}
+                  src={img1}
+                  alt={translations[lang].main_page.brand_nature}
                   className='transition-opacity opacity-0 duration'
                   onLoad={handleLoadingImageComplete}
                 />
                 <span>
                   {textWithNonBreakingSpace(
-                    translations[lang].main_page.brand_look
+                    translations[lang].main_page.brand_nature
                   )}
                 </span>
               </Link>
@@ -77,14 +77,14 @@ const BrandLife = () => {
                 className={`${styles.brands__list__item__link} ${styles.categories__img} ${imgSpinnerClass}`}
               >
                 <Image
-                  src={img2}
-                  alt={translations[lang].main_page.brand_idea}
+                  src={img1}
+                  alt={translations[lang].main_page.brand_nature}
                   className='transition-opacity opacity-0 duration'
                   onLoad={handleLoadingImageComplete}
                 />
                 <span>
                   {textWithNonBreakingSpace(
-                    translations[lang].main_page.brand_idea
+                    translations[lang].main_page.brand_nature
                   )}
                 </span>
               </Link>

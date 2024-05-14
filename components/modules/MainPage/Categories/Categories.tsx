@@ -5,10 +5,10 @@ import AllLink from '@/components/elements/AllLink/AllLink'
 import useImagePreloader from '@/hooks/useImagePreloader'
 import { useLang } from '@/hooks/useLang'
 import { useMediaQuery } from '@/hooks/useMediaQuery'
-import img1 from '@/public/img/categories-img-1.png'
-import img2 from '@/public/img/categories-img-2.png'
-import img3 from '@/public/img/categories-img-3.png'
-import img4 from '@/public/img/categories-img-4.png'
+import img1 from '@/public/img/ASSASIN_GIF.gif'
+import img2 from '@/public/img/blackdiskgif.gif'
+import img3 from '@/public/img/flametoy.gif'
+import img4 from '@/public/img/SOUVER.jpg'
 import styles from '@/styles/main-page/index.module.scss'
 import MainSlider from '../MainSlider'
 
@@ -50,6 +50,8 @@ const Categories = () => {
                 <Image
                   src={img1}
                   alt='Cloth'
+                  width='555'
+                  height='556'
                   className='transition-opacity opacity-0 duration'
                   onLoad={handleLoadingImageComplete}
                 />
