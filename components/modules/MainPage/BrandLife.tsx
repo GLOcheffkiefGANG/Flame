@@ -5,7 +5,7 @@ import useImagePreloader from '@/hooks/useImagePreloader'
 import { useLang } from '@/hooks/useLang'
 import { useMediaQuery } from '@/hooks/useMediaQuery'
 import img1 from '@/public/img/brands-life.png'
-import img2 from '@/public/img/categories-img-1.png'
+import img2 from '@/public/img/SOUVER.jpg'
 import MainSlider from './MainSlider'
 import styles from '@/styles/main-page/index.module.scss'
 
